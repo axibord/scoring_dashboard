@@ -2,6 +2,7 @@ import streamlit as st
 from functions import *
 import pandas as pd
 import json, joblib
+import numpy as np
 
 # load model and scaler
 model = joblib.load('model.pkl')
